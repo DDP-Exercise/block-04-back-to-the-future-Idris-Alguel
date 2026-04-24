@@ -7,5 +7,20 @@
 </head>
 <body>
 
+<div id ="app" style="background: rgba(255, 255, 255, 0.8); padding: 20px; width: 300px; margin: 20px; border-radius: 10px;">
+    <h2>Analoguhr</h2>
+    <div id="analagoue" style="position: relative; width: 100px; height: 100px; border: 2px solid black; border-radius: 50%;"></div>
+
+    <h2>Digitaluhr</h2>
+    <div id="digital" style="font-size: 24px; font-weight: bold; margin-bottom: 10px;"></div>
+
+    <button id="saveTimeButton"> Save Time </button>
+</div>
+
+<script type="module" src="./js/model.time.js"></script>
+<script type="module" src="./js/view.analagoue.js"></script>
+<script type="module" src="./js/view.digital.js"></script>
+<script type="module" src="./js/controller.js"></script>
+
 </body>
 </html>
